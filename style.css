@@ -1,0 +1,289 @@
+html , body {
+    height:100%;
+    width:100%;
+    margin: 0;
+    font-family: 'Source Sans Pro';
+   
+}
+#section-1{
+    position:relative;
+    color:white;
+    background-image:url(TranscodedWallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+
+    }
+@media screen and (max-width: 970px) {
+    #section-1 {
+        height: 50%;}
+}
+h1{
+    font-size: 4em;
+    margin:0;
+    padding: 15% 15% 0;
+    
+}
+h2{
+    font-size: 2.2em;
+    padding: 0 10% 0;
+    }
+h3{
+   font-size: 2em;
+   font-weight: 700;
+   padding: 0 0 2%;
+  }
+h4{
+    font-size: 1.5em;
+    font-weight: 300;
+    padding:0 5% 2%;
+    }
+h5{
+    font-size: 1.25em;
+    font-weight: 700;
+    color:#f3bf1d;
+    padding-top: 2%;
+    margin-bottom:0px;
+	}
+#section-2{
+    margin: 50px 0;
+    padding: 6px 0;
+    text-decoration: none;
+}
+#section-3{
+    position:relative;
+    background-color:#1d809f;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:60%;
+    width:100%;
+    }
+@media screen and (max-width: 1350px) {
+    #section-3 {
+        height: 90%;}
+}
+@media screen and (max-width: 600px) {
+    #section-3 {
+        height: 100%;}
+}
+#section-3 h5{
+    padding-top: 100px;
+}
+#WWO{
+    font-size: 3.1em;
+    color: white;
+    padding:12px 0px 30px;
+}
+
+.icon-container{
+    width:250px;
+    color:white;
+    display:inline-block;
+    margin:20px 3% 10px;
+    padding: 0;
+}
+.icon-container h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 0 0;
+    color: white;
+}
+.icon-container p{
+    color: white;  
+    font-weight: 100;
+    margin-top: -5px; 
+}
+.circle{
+    width: 112px;
+    height: 112px;
+    border-radius:100%;
+    background: white;
+    margin: 0 auto;
+    display: inline-block;
+    color: #1d809f;
+}
+.circle i{
+   font-size:50px;
+   padding-top:30px;
+}
+
+#section-4{
+    position:relative;
+    background-image:url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width:100%;
+    border-top:5%;
+}
+
+#section-4 h1{
+    padding: 12% 36% 0%;
+    margin-bottom: 50px;
+    font-size: 3.55em;
+}
+@media screen and (max-width: 970px) {
+    #section-4 h1 {
+        padding: 24% 25% 0;}
+    }
+h6{
+    font-size:1em;
+    font-weight:700;
+    color:white;
+}
+#section-5{
+    width: 75%;
+    margin-left: 12%;
+    height: 100%;
+    }
+.rectangle{
+    height: 370px;
+    width:555px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    overflow:hidden;
+    }
+.rec-box{
+        height: 100%;
+        width:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        border: 0 solid white;
+        box-sizing: border-box;
+        transition: border .55s;
+        }
+}
+
+@media screen and (max-width: 970px){
+    .rectangle{
+        margin:5px;
+    }
+}
+.caption{
+    width:90%;
+    position: absolute;
+    bottom: 11%;
+    left: 6%;
+    text-align:left;
+}.rectangle h6{
+    color: white;
+    font-size:1em;
+    font-weight:bold;
+    transform:translateY(40px);
+}
+.rectangle p{
+    color:white;
+    font-size:1.1em;
+    font-weight: 100px;
+    display:inline-block;
+    line-height:30px;
+}
+
+.rectangle:hover img{
+    opacity: 0.7;
+}
+.rectangle:hover .rec-box{
+    border: 27px solid #66919e60;
+}
+
+#section-6{
+    position:relative;
+    background:#1d809f;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:35%;
+    width:100%;}
+#section-6 h2{
+    color:white;
+    padding-top: 3%;
+    padding-bottom:50px;
+    font-size: 2em;
+    
+}
+
+@media screen and (max-width: 970px){
+    #section-6{
+        height:40%;}
+    }
+
+    .circle-2{
+        width: 50px;
+        height: 50px;
+        border-radius:100%;
+        background: #1d809f;
+        margin: 20px;
+        display: inline-block;
+        color: white;
+    }
+    .footer-container{
+        width:200px;
+        color:white;
+        display:inline-block;
+        margin:0px;
+        padding-bottom: 30px;
+    }
+    .circle-2{
+        width: 64px;
+        height: 64px;
+        border-radius:100%;
+        background: #1d809f;
+        display: inline-block;
+        margin: 0 auto;
+        color: white;   
+    }
+    .circle-2 i{
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    #social-media{
+        position:relative;
+        padding-top:50px;
+        padding-bottom:50px;
+        background: url(milky-way-2695569_960_720.jpg)
+            }
+
+    #map{
+        height:65%;
+        width:100%;
+        background-color:grey;
+
+    }
+    
+    #section-2 a{
+        text-decoration: none;
+        color:#1d809f;
+    }
+
+    *{box-sizing: border-box}
+    .row{
+        width:100%;}
+    .row > div {
+        display:inline-block;
+    }
+    .col-12 {
+        width: 100%;
+      }
+      
+      .col-6 {
+        width: 50%;
+      }
+      
+      .col-4 {
+        width: 33%;
+      }
+      .col-3{
+          width:25%;
+      }
+      .col-2 {
+        width:16%;
+      }
+
+      @media screen and (min-width: 970px){
+        .col-6{width:70%
+        margin-bot:60px}
+        .col-2{width: 15%;
+            margin-top: 60px}
+        }
